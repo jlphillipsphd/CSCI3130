@@ -17,6 +17,7 @@ RUN apt-get update && \
     ssh \
     rsync \
     zip \
+    tmux \
     && apt-get clean
 
 # CSCI 3130
