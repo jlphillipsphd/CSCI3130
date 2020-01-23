@@ -16,6 +16,7 @@ RUN apt-get update && \
     less \
     ssh \
     rsync \
+    zip \
     && apt-get clean
 
 # CSCI 3130
