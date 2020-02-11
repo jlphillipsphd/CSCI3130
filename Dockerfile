@@ -18,6 +18,7 @@ RUN apt-get update && \
     rsync \
     zip \
     tmux \
+    gdb \
     && apt-get clean
 
 # CSCI 3130
