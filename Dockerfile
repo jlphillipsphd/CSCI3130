@@ -28,8 +28,8 @@ RUN conda install --quiet --yes \
     bash_kernel \
     && \
     conda clean --all -f -y && \
-    fix-permissions $CONDA_DIR && \
-    fix-permissions /home/$NB_USER
+    fix-permissions "${CONDA_DIR}" && \
+    fix-permissions "/home/${NB_USER}"
 
 # Leave as root at the end for K8S to
 # be able to provide sudo later on...
