@@ -34,4 +34,5 @@ RUN conda install --quiet --yes \
 # Leave as root at the end for K8S to
 # be able to provide sudo later on...
 USER root
+RUN python -m bash_kernel.install --sys-prefix
 
