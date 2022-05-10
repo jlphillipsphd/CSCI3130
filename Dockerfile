@@ -1,7 +1,7 @@
 FROM jupyter/base-notebook:ubuntu-20.04
 
 LABEL maintainer="Joshua L. Phillips <https://www.cs.mtsu.edu/~jphillips/>"
-LABEL release-date="2022-04-23"
+LABEL release-date="2022-05-10"
 
 USER root
 
@@ -30,7 +30,7 @@ RUN apt-get update && \
 
 # Install:
 # VSCode (for IDE)
-RUN curl -fsSL https://code-server.dev/install.sh | sh -s -- --version=4.3.0 && \
+RUN curl -fsSL https://code-server.dev/install.sh | sh -s -- --version=4.4.0 && \
     rm -rf "${HOME}/.cache"
 
 USER $NB_UID
