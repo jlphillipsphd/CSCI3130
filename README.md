@@ -1,7 +1,7 @@
 # CSCI3130
-Docker container for CSCI 3130 - Assembly and Computer Organization (ver. 2020-12-14)
+Docker container for CSCI 3130 - Assembly and Computer Organization (ver. 2022-04-23)
 
-This container is built on top of jupyter/base-notebook provided by jupyter/docker-stacks. It provides a JupyterLab environment with a couple of essential (and non-essential) build tools used in CSCI3130 - Assembly and Computer Organization.
+This container is built on top of jupyter/base-notebook provided by jupyter/docker-stacks. It provides a JupyterLab environment with a couple of essential (and non-essential) build tools used in CSCI3130 - Assembly and Computer Organization. The aim is to provide a tool chain appropriate for students in CSCI1170, CSCI2170 as well. The idea is just to provide a limited but practical Python and C++ development environment environment - not really JupyterLab.
 
 To prep:
 ```
